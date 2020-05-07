@@ -1,0 +1,45 @@
+# calculator_messages.yml
+
+en:
+  welcome: "Welcome to Calculator! Enter your  name:"
+  valid_name: "Make sure to enter a valid name."
+  get_number: "Please enter a number:"
+  valid_number: "Hmmm.... that doesn't look like a valid number."
+  thank_you: "Thank you for using the calculator. Goodbye!"
+  hi: "Hi!"
+  ok: "ok"
+operator_prompt:   "
+    What operation would you like to perform?
+    1) add
+    2) subtract
+    3) multiply
+    4) divide"
+
+es:
+  welcome: "Bienvenido a la calculadora. Entra su nombre:"
+  valid_name: "Asegúrese de entrar un nombre válido."
+  get_number: "Entra un número por favor:"
+  valid_number: "No es un número válido."
+  thank_you: "¡Muchas Gracias!"
+  hi: "Hola"
+  ok: "ok"
+  operator_prompt:   "
+      What operation would you like to perform?
+      1) add
+      2) subtract
+      3) multiply
+      4) divide"
+zh:
+  welcome: "ni hao! ni jiao shenme mingzi?"
+  valid_name: "mingzi wuxiao"
+  get_number: "gei wo yige zhengshu"
+  valid_number: "zhengshu wuxiao"
+  thank_you: "xie xie"
+  hi: "ni hao!"
+  ok: "hao"
+  operator_prompt:   "
+      What operation would you like to perform?
+      1) add
+      2) subtract
+      3) multiply
+      4) divide"

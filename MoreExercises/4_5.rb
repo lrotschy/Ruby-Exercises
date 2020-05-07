@@ -1,0 +1,17 @@
+# 4_5.rb
+
+
+def fib(first_num, second_num)
+  limit = 15
+  while second_num < limit
+    sum = first_num + second_num
+    first_num = second_num
+    second_num = sum
+  end
+  sum
+end
+
+result = fib(0, 1)
+puts "result is #{result}"
+
+#  The problem is that the limit variable was initialized outside of the method. Methods are self contained--they can't access variables outside of their scope except those that are accessed with the parameter.
